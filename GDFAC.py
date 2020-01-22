@@ -21,7 +21,7 @@ PLAYLIST="/playlist/"
 REDIRECT_URL="http://127.0.0.1:8080"
 BROWSERS=("xdg-open",'firefox','chromium','google-chrome')
 TOKEN_RE = compile("access_token=(\w{51})&expires=(\d+)")
-APP_SECRET="REDDACTED_APP_SECRET"
+APP_SECRET="REDACTED_APP_SECRET"
 NAME_TABLE = str.maketrans(" /()","_-..",".?'")
 verbose=True
 def get_req_url():
